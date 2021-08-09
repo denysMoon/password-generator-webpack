@@ -1,4 +1,7 @@
 @import '~normalize.css';
+*{
+    box-sizing: border-box;
+}
 header{
     background: lightskyblue;
     height: 80px;
@@ -50,4 +53,14 @@ button{
 }
 input{
     width: 50%;
+}
+.wrapper, .content, button, input{
+    border-radius: 5px;
+}
+button:hover{
+    background:white;
+    color: lightblue;
+}
+p{
+    text-align: center;
 }
