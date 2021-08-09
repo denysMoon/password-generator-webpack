@@ -1,6 +1,5 @@
 import './style/style.css'
-import * as $ from 'jquery'
 
-console.log('webpack')
-
-$('h3').html('Text from jQuery')
+const generateButton = document.querySelector('#generate-button')
+const copyButton = document.querySelector('#copy-button')
+const input = document.querySelector('input')
